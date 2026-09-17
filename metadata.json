@@ -1,0 +1,6 @@
+{
+  "name": "도레이첨단소재 부드럽 과정 안내",
+  "description": "도레이첨단소재 전사 현장 반장 부부동반 힐링 리트릿 '부드럽 과정' 행사 안내 및 상세 프로그램, 일정, 문의 안내 웹앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

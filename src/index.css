@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  body {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+}
+
+/* Universal Korean word break rule */
+* {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.font-serif-kr {
+  font-family: 'Noto Serif KR', 'Batang', serif;
+}
+
+.font-sans-kr {
+  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+}
+
+/* Subtle Korean traditional paper texture overlay */
+.bg-hanji {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#e5ded2 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4efe6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8cebf;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #beaf9b;
+}
+
