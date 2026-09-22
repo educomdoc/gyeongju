@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#inquiry" className="hover:text-white transition-colors">
-                  1:1 문의 및 신청 안내
+                  준비물 및 셔틀버스 안내
                 </a>
               </li>
             </ul>
@@ -66,8 +66,10 @@ export const Footer: React.FC = () => {
               {CONTACT_INFO.operationTeam} 연락처
             </h5>
             <div className="text-[#b0a498] space-y-1">
-              <div>사내 핫라인: {CONTACT_INFO.hotline}</div>
-              <div>행사 핫라인: {CONTACT_INFO.mobileHotline}</div>
+              <div>대표 전화: {CONTACT_INFO.hotline}</div>
+              {'mobileHotline' in CONTACT_INFO && CONTACT_INFO.mobileHotline && (
+                <div>행사 핫라인: {CONTACT_INFO.mobileHotline}</div>
+              )}
               <div className="text-[#7d7369] pt-1">
                 {CONTACT_INFO.operatingHours}
               </div>
