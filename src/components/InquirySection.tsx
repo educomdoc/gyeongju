@@ -175,7 +175,7 @@ export const InquirySection: React.FC = () => {
                 </p>
               </div>
 
-              {/* Groups: 필수 지참 vs 추천 준비물 vs 제공 품목 */}
+              {/* Groups: 필수 지참 vs 추천 준비물 */}
               <div className="space-y-6">
                 {/* 1. 필수 지참 */}
                 <div>
@@ -265,35 +265,7 @@ export const InquirySection: React.FC = () => {
                   </div>
                 </div>
 
-                {/* 3. 회사 제공 품목 */}
-                <div className="bg-[#fcf5f3] rounded-2xl p-5 border border-[#f5dad4]">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="px-2.5 py-0.5 rounded-full bg-[#a03f31] text-white text-xs font-bold">
-                      회사 100% 제공 품목
-                    </span>
-                    <span className="text-xs text-[#8e4537] font-semibold">
-                      별도로 챙기실 필요가 없습니다
-                    </span>
-                  </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                    {PACKING_ITEMS.filter((i) => i.category === '제공 품목').map((item) => (
-                      <div
-                        key={item.id}
-                        className="bg-white p-3 rounded-xl border border-[#ebd3cb] flex items-start gap-2.5"
-                      >
-                        <span className="text-[#a03f31] font-bold text-xs mt-0.5">🎁</span>
-                        <div>
-                          <div className="text-xs font-bold text-[#2c2824]">
-                            {item.label}
-                          </div>
-                          <div className="text-[11px] text-[#776b61] mt-0.5">
-                            {item.description}
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+               
               </div>
             </div>
           )}
@@ -304,7 +276,7 @@ export const InquirySection: React.FC = () => {
               <div className="bg-white rounded-3xl border border-[#ebdccd] p-6 sm:p-8 shadow-sm">
                 <div className="border-b border-[#f1e6da] pb-4 mb-6">
                   <h3 className="text-lg font-bold text-[#282320] font-serif-kr">
-                    사업장별 전세 리무진 버스 탑승 안내
+                    사업장별 이동 안내
                   </h3>
                   <p className="text-xs text-[#786c62] mt-1">
                     정시 출발하므로 출발 시간 10분 전까지 지정 승차장에 집결해 주시기 바랍니다.
@@ -335,18 +307,8 @@ export const InquirySection: React.FC = () => {
                         </p>
                       </div>
 
-                      <div className="mt-4 pt-3 border-t border-[#eee2d6] text-[11px] text-[#867a70]">
-                        ※ 버스 내 음료, 모닝 샌드위치, 과일 간식 박스가 비치되어 있습니다.
-                      </div>
                     </div>
                   ))}
-                </div>
-
-                <div className="mt-6 p-4 rounded-2xl bg-[#f5ede5] text-xs text-[#63574c] leading-relaxed">
-                  <strong>💡 자가용 개별 이동 희망 시:</strong>
-                  <br />
-                  Day 1 10:30까지 첫 번째 목적지인 <strong>‘군위 화본역’</strong> 주차장으로
-                  직접 오시면 됩니다. (개별 유류비 및 톨게이트 비용 사후 영수증 청구 지원)
                 </div>
               </div>
             </div>
@@ -359,13 +321,15 @@ export const InquirySection: React.FC = () => {
                 <Phone className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-xs font-bold text-[#8a7d72]">대표 전화 (구미/서울)</div>
+                <div className="text-xs font-bold text-[#8a7d72]">대표 전화</div>
                 <div className="text-xs sm:text-sm font-bold text-[#282420] mt-0.5">
                   {CONTACT_INFO.hotline}
                 </div>
-                <div className="text-[11px] text-[#73685e] mt-1">
-                  현장 핫라인: {CONTACT_INFO.mobileHotline}
-                </div>
+                {'mobileHotline' in CONTACT_INFO && CONTACT_INFO.mobileHotline && (
+                  <div className="text-[11px] text-[#73685e] mt-1">
+                    현장 핫라인: {CONTACT_INFO.mobileHotline}
+                  </div>
+                )}
               </div>
             </div>
 
