@@ -28,7 +28,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExplorePrograms, onO
             {/* Sub-slogan with vertical bar aesthetic */}
             <div className="inline-block mb-3">
               <p className="text-base sm:text-lg text-[#8e4537] font-serif-kr font-medium tracking-wide">
-                부부가 함께 더 부드럽게 성장하는 시간
+                내일의 꿈과 사랑을 그리는 따뜻한 시간
               </p>
             </div>
 
