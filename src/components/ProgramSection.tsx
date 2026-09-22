@@ -412,7 +412,7 @@ export const ProgramSection: React.FC<ProgramSectionProps> = ({
               </h4>
             </div>
             <div className="text-xs text-[#7c7065]">
-              전 일정 최고급 28인승 우등 리무진 버스로 편안하게 이동합니다.
+              전 일정 단체 버스로 편안하게 이동합니다.
             </div>
           </div>
 
