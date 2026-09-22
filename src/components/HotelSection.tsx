@@ -33,26 +33,26 @@ export const HotelSection: React.FC = () => {
   const hotelFeatures = [
     {
       title: '디럭스 더블 / 트윈 객실',
-      desc: '보문호수 또는 아늑한 마운틴뷰가 파노라마로 펼쳐지는 최고급 침구의 5성급 부부 전용 객실',
+      desc: '보문호수 또는 아늑한 마운틴뷰가 파노라마로 펼쳐지는 최고급 침구의 5성급 객실',
       badge: '전 참가자 1실 배정',
       icon: Moon,
     },
     {
-      title: '특선 디너 만찬 & 와인 페어링',
-      desc: '호텔 그랜드볼룸에서 진행되는 도레이 임직원 부부 축하 와인',
+      title: '특선 디너 만찬',
+      desc: '호텔 그랜드볼룸에서 진행되는 도레이 임직원 디너 만찬',
       badge: '1일차 18:00',
       icon: UtensilsCrossed,
     },
     {
       title: '레이크사이드 조식 뷔페',
       desc: '신선한 샐러드, 즉석 오믈렛, 베이커리 등 80여 종의 인터내셔널 프리미엄 모닝 뷔페',
-      badge: '2일차 07:30~09:00',
+      badge: '2일차 06:30~09:00',
       icon: Coffee,
     },
     {
       title: '피트니스 & 실내 수영장',
-      desc: '자연 채광이 비치는 힐튼 실내 풀장과 쾌적한 피트니스 센터 무료 이용',
-      badge: '자유 이용권 증정',
+      desc: '자연 채광이 비치는 힐튼 실내 풀장과 쾌적한 피트니스 센터 운영',
+      badge: '',
       icon: Waves,
     },
   ];
@@ -125,7 +125,7 @@ export const HotelSection: React.FC = () => {
                   <div className="text-right">
                     <div className="text-xs font-semibold text-[#786c62] mb-0.5">객실 형태</div>
                     <div className="text-sm font-bold text-[#2d2926]">
-                      디럭스 룸 (부부당 1실)
+                      디럭스 룸 (직원 1명당 1실)
                     </div>
                   </div>
                 </div>
@@ -208,11 +208,11 @@ export const HotelSection: React.FC = () => {
           <div className="p-5 rounded-2xl bg-white border border-[#ebdccd] shadow-sm">
             <div className="flex items-center gap-2 mb-3 text-xs font-bold text-[#a03f31]">
               <Waves className="w-4 h-4" />
-              <span>부대시설 무료 혜택</span>
+              <span>부대시설 혜택</span>
             </div>
-            <h5 className="text-sm font-bold text-[#2d2926] mb-1.5">헬스장 &amp; 실내 수영장</h5>
+            <h5 className="text-sm font-bold text-[#2d2926] mb-1.5">피트니스 센터 &amp; 실내 수영장</h5>
             <p className="text-xs text-[#6e6359] leading-relaxed">
-              워크숍 참가 부부 전원에게 투숙 기간 중 힐튼 헬스장 및 실내 수영장 무료 이용 혜택이 지원됩니다.
+              워크숍 참가 부부 전원에게 투숙 기간 중 힐튼 피트니스 센터 및 실내 수영장 무료 이용 혜택이 지원됩니다.
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export const HotelSection: React.FC = () => {
             </div>
             <h5 className="text-sm font-bold text-[#2d2926] mb-1.5">레이크사이드 뷔페</h5>
             <p className="text-xs text-[#6e6359] leading-relaxed">
-              2일차 아침 07:30부터 09:00까지 자유롭게 조식 뷔페를 즐기실 수 있으며, 09:30에 로비에서 단체 출발합니다.
+              2일차 아침 08:30까지 자유롭게 조식 식사를 마치시고 퇴실준비를 부탁드리며, 09:00에 호텔 로비에서 단체 출발합니다.
             </p>
           </div>
         </div>
