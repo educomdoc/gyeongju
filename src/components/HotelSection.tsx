@@ -119,7 +119,7 @@ export const HotelSection: React.FC = () => {
                   <div>
                     <div className="text-xs font-semibold text-[#a03f31] mb-0.5">체크인 / 체크아웃</div>
                     <div className="text-base font-bold text-[#2d2926]">
-                      1일차 16:00 입실 ~ 2일차 09:30 퇴실
+                      1일차 16:00 입실 ~ 2일차 09:00 퇴실
                     </div>
                   </div>
                   <div className="text-right">
