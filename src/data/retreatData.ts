@@ -370,9 +370,9 @@ export const PACKING_ITEMS: PackingItem[] = [
   },
   {
     id: 'pack-7',
-    label: '운동화 (선택 사항)',
+    label: ''\요가복\' 또는 요가를 위한 편안한 복장 (선택 사항)',
     category: '추천 준비물',
-    description: '호텔 피트니스 이용시 체육복, 수건은 피트니스 센터에서 제공 운동화는 개인 지참',
+    description: '2일차 분반교육 시 반장님들과 배우자분들 모두 요가 프로그램이 포함됩니다. 움직임이 편안한 체육복이나 신축성 있는 복장을 추천드립니다',
     isProvided: true,
   },  
 ];
