@@ -223,11 +223,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExplorePrograms, onO
                     <span className="text-[11px] text-[#8a7a6e]">내면을 채우고 문화를 향유하다</span>
                   </div>
                 </div>
-
-                <div className="mt-4 pt-3 border-t border-[#eee2d4] flex items-center justify-between text-xs text-[#786b60]">
-                  <span className="font-medium">전 일정 식사·5성급 숙박·체험비</span>
-                  <span className="font-bold text-[#a03f31]">도레이첨단소재 전액 지원</span>
-                </div>
               </div>
             </div>
           </div>
