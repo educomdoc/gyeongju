@@ -228,7 +228,7 @@ export const ProgramSection: React.FC<ProgramSectionProps> = ({
                         <span>사유원 핵심 추천 탐방 코스 (주요 거점)</span>
                       </div>
                       <span className="text-[11px] font-semibold text-[#3b6a4b] bg-[#e8f1e3] px-2 py-0.5 rounded-full border border-[#d2e4cb]">
-                        약 4시간 소요 (09:00 ~ 13:00)
+                        약 3시간 30분 소요 (09:00 ~ 12:30)
                       </span>
                     </div>
                     <p className="text-xs text-[#526356] leading-relaxed mb-3">
@@ -280,7 +280,7 @@ export const ProgramSection: React.FC<ProgramSectionProps> = ({
                       <div className="flex items-center justify-between text-[11px] font-semibold text-[#b6dbc0] mb-2.5">
                         <span className="flex items-center gap-1.5">
                           <MapPin className="w-3.5 h-3.5 text-[#7bd99a]" />
-                          사유원 4시간 순환 코스 안내도
+                          사유원 순환 코스 안내도
                         </span>
                         <span className="text-[10px] bg-white/10 px-2 py-0.5 rounded-full text-[#c5e8ce]">총 8개 주요 거점</span>
                       </div>
