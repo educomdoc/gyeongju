@@ -388,14 +388,10 @@ export const CONTACT_INFO = {
       departureTime: '08:00 출발',
     },
     {
-      plant: '군산/안성/유구/울산 사업장',
+      plant: '군산/대구/안성/유구/울산 사업장',
       pickupPoint: '군산, 안성, 유구 사업장의 경우 이동시간 고려하여 12시 전까지 군위 사유원으로 도착해 주세요.',
       departureTime: '개별이동(유류대 지원)',
     },
-    {
-      plant: '대구 사업장',
-      pickupPoint: '추후 안내',
-      departureTime: '추후 안내',
-    },
+   
   ],
 };
