@@ -18,7 +18,7 @@ export const RETREAT_INFO = {
 export const PROGRAMS_DATA: ProgramItem[] = [
   {
     id: 'hwabon-station',
-    name: '화본역 & 엄마아빠 옛날옛적에',
+    name: '화본역 & 엄마아빠 어렸을 적에',
     nameEn: 'Hwabon Station & Memory Village',
     category: '감성 간이역 & 추억 여행',
     shortDescription: '세월이 멈춘 듯 평온한 가장 아름다운 간이역에서의 추억 소환',
@@ -188,7 +188,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
   {
     time: '10:00 - 11:00',
     day: 1,
-    title: '화본역 & 엄마아빠 옛날옛적에',
+    title: '화본역 & 엄마아빠 어렸을 적에',
     location: '군위 화본역 테마마을',
     category: '프로그램',
     description: '가장 아름다운 간이역 화본역과 추억의 옛 시절 감성을 소환하는 레트로 골목 투어 및 부부 사진 촬영',
@@ -394,7 +394,7 @@ export const CONTACT_INFO = {
     },
    {
       plant: '군산/안성/유구/울산 사업장',
-      pickupPoint: '군산, 안성, 유구 사업장의 경우 이동시간 고려하여 12시 50분전까지 군위 사유원으로 도착해 주세요.',
+      pickupPoint: '군산, 안성, 유구 사업장의 경우 이동시간 고려하여 <p> 12시 50분 전까지 군위 사유원으로 도착해 주세요.',
       departureTime: '개별이동(유류대 지원)',
     },
   ],
