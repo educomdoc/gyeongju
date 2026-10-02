@@ -118,7 +118,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSelectProgram }
               )}
             </div>
 
-            {/* 2. 프로그램 (하위: 군위 사유원, 화본역&엄마아빠 옛날옛적에, 경주 감성 미술관, 황리단길 자유투어) */}
+            {/* 2. 프로그램 (하위: 화본역&엄마아빠 옛날옛적에, 군위 사유원, 경주 감성 미술관, 황리단길 자유투어) */}
             <div
               className="relative"
               onMouseEnter={() => setOpenDropdown('program')}
@@ -150,29 +150,29 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSelectProgram }
                     </span>
                   </div>
 
-                  {/* 군위 사유원 */}
-                  <button
-                    onClick={() => handleProgramClick('sayuwon')}
-                    className="w-full text-left px-3 py-2 rounded-xl text-sm hover:bg-[#fcf8f5] group transition-colors flex items-center gap-2.5"
-                  >
-                    <span className="w-5 h-5 rounded-full bg-[#f4e9e1] text-[#9e4334] text-xs font-bold flex items-center justify-center flex-shrink-0">
-                      1
-                    </span>
-                    <div className="font-medium text-[#2d2926] group-hover:text-[#9e4334] text-xs">
-                      군위 사유원
-                    </div>
-                  </button>
-
                   {/* 화본역&엄마아빠 옛날옛적에 */}
                   <button
                     onClick={() => handleProgramClick('hwabon-station')}
                     className="w-full text-left px-3 py-2 rounded-xl text-sm hover:bg-[#fcf8f5] group transition-colors flex items-center gap-2.5"
                   >
                     <span className="w-5 h-5 rounded-full bg-[#f4e9e1] text-[#9e4334] text-xs font-bold flex items-center justify-center flex-shrink-0">
-                      2
+                      1
                     </span>
                     <div className="font-medium text-[#2d2926] group-hover:text-[#9e4334] text-xs leading-snug">
                       화본역 &amp; 엄마아빠 옛날옛적에
+                    </div>
+                  </button>
+                  
+                  {/* 군위 사유원 */}
+                  <button
+                    onClick={() => handleProgramClick('sayuwon')}
+                    className="w-full text-left px-3 py-2 rounded-xl text-sm hover:bg-[#fcf8f5] group transition-colors flex items-center gap-2.5"
+                  >
+                    <span className="w-5 h-5 rounded-full bg-[#f4e9e1] text-[#9e4334] text-xs font-bold flex items-center justify-center flex-shrink-0">
+                      2
+                    </span>
+                    <div className="font-medium text-[#2d2926] group-hover:text-[#9e4334] text-xs">
+                      군위 사유원
                     </div>
                   </button>
 
@@ -319,16 +319,16 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSelectProgram }
                   onClick={() => handleProgramClick('sayuwon')}
                   className="w-full text-left py-1.5 px-2 text-xs font-medium text-[#4b433c] hover:text-[#9e4334]"
                 >
-                  • 군위 사유원
-                </button>
-                <button
-                  onClick={() => handleProgramClick('hwabon-station')}
-                  className="w-full text-left py-1.5 px-2 text-xs font-medium text-[#4b433c] hover:text-[#9e4334]"
-                >
                   • 화본역 &amp; 엄마아빠 옛날옛적에
                 </button>
                 <button
                   onClick={() => handleProgramClick('oar-museum')}
+                  className="w-full text-left py-1.5 px-2 text-xs font-medium text-[#4b433c] hover:text-[#9e4334]"
+                >
+                    • 군위 사유원
+                </button>
+                <button
+                  onClick={() => handleProgramClick('hwabon-station')}
                   className="w-full text-left py-1.5 px-2 text-xs font-medium text-[#4b433c] hover:text-[#9e4334]"
                 >
                   • 경주 감성 미술관
