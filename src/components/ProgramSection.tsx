@@ -96,7 +96,7 @@ export const ProgramSection: React.FC<ProgramSectionProps> = ({
                   : 'bg-white text-[#6d6258] border border-[#e4d7ca] hover:bg-[#f5ece2]'
               }`}
             >
-              1일차 코스 (사유원 · 화본역)
+              1일차 코스 (화본역 · 사유원)
             </button>
             <button
               onClick={() => setDayFilter('Day 2')}
