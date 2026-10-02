@@ -251,7 +251,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
     time: '09:00 - 12:00',
     day: 2,
     title: '반장(존중과 소통), 배우자(자기돌봄)',
-    location: '힐튼호텔 체리룸 / 미술관',
+    location: '힐튼호텔 체리룸 / 그랜드볼룸 B + C',
     category: '프로그램',
     description: '반장님을 위한 맞춤형 [존중과 소통] 워크숍 및 배우자님을 위한 힐링 테라피 [자기돌봄] 분과 프로그램',
     highlight: '맞춤형 분과 힐링 세션',
