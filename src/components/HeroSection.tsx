@@ -206,7 +206,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExplorePrograms, onO
                         1일차
                       </span>
                       <span className="font-semibold text-[#2f2b27]">
-                        군위 사유원 & 화본역 추억 투어
+                        화본역 추억 투어 & 군위 사유원
                       </span>
                     </div>
                     <span className="text-[11px] text-[#8a7a6e]">나를 비우고 자연을 담다</span>
