@@ -40,7 +40,7 @@ export const HotelSection: React.FC = () => {
     {
       title: '특선 디너 만찬',
       desc: '호텔 그랜드볼룸에서 진행되는 도레이 임직원 디너 만찬',
-      badge: '1일차 18:00',
+      badge: '1일차 18:30',
       icon: UtensilsCrossed,
     },
     {
@@ -119,7 +119,7 @@ export const HotelSection: React.FC = () => {
                   <div>
                     <div className="text-xs font-semibold text-[#a03f31] mb-0.5">체크인 / 체크아웃</div>
                     <div className="text-base font-bold text-[#2d2926]">
-                      1일차 16:00 입실 ~ 2일차 09:00 퇴실
+                      1일차 18:00 입실 ~ 2일차 09:00 퇴실
                     </div>
                   </div>
                   <div className="text-right">
