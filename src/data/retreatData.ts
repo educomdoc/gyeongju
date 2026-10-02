@@ -59,7 +59,7 @@ export const PROGRAMS_DATA: ProgramItem[] = [
     locationName: '대구 군위군 부계면',
     address: '대구광역시 군위군 부계면 치산효령로 1150',
     roadAddress: '군위 팔공산자락 사유원 정문',
-    estimatedTime: '약 3시간 30분 소요 (13:00 ~ 17:00)',
+    estimatedTime: '약 4시간 소요 (13:00 ~ 17:00)',
     day: 'Day 1',
     scheduleSlot: '13:00 ~ 17:00',
     highlights: [
