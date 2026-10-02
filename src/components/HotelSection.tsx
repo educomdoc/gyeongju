@@ -201,7 +201,7 @@ export const HotelSection: React.FC = () => {
             </div>
             <h5 className="text-sm font-bold text-[#2d2926] mb-1.5">도레이 단독 전용 부스 운영</h5>
             <p className="text-xs text-[#6e6359] leading-relaxed">
-              호텔 로비에 도레이첨단소재 참가자 전용 안내 부스가 설치되어 대기 없이 신속한 룸 배정 및 웰컴 키트가 전달됩니다.
+              호텔 그랜드볼룸 앞에 도레이첨단소재 참가자 전용 안내 부스가 설치되어 대기 없이 신속한 룸 배정이 진행합니다.
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export const HotelSection: React.FC = () => {
             </div>
             <h5 className="text-sm font-bold text-[#2d2926] mb-1.5">레이크사이드 뷔페</h5>
             <p className="text-xs text-[#6e6359] leading-relaxed">
-              2일차 아침 08:30까지 자유롭게 조식 식사를 마치시고 퇴실준비를 부탁드리며, 09:00에 호텔 로비에서 단체 출발합니다.
+              호텔 로비 1층에 위치한 레이크사이드 뷔페에서 2일차 아침 08:30까지 자유롭게 조식 식사를 마치시고 퇴실준비를 부탁드립니다.
             </p>
           </div>
         </div>
