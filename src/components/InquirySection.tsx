@@ -43,7 +43,7 @@ export const InquirySection: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#f4e4df] text-[#a03f31] text-xs font-semibold mb-3 border border-[#ecd2cb]">
             <HelpCircle className="w-3.5 h-3.5" />
-            <span>도레이첨단소재 인사팀 인재개발파트</span>
+            <span>도레이첨단소재 인력개발팀</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#292522] font-serif-kr tracking-tight mb-4">
             기타사항 및 문의 안내
