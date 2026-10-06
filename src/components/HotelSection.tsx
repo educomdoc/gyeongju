@@ -212,7 +212,8 @@ export const HotelSection: React.FC = () => {
             </div>
             <h5 className="text-sm font-bold text-[#2d2926] mb-1.5">피트니스 센터 &amp; 실내 수영장</h5>
             <p className="text-xs text-[#6e6359] leading-relaxed">
-              워크숍 참가 부부 전원에게 투숙 기간 중 힐튼 피트니스 센터 및 실내 수영장 무료 이용 혜택이 지원됩니다.
+              워크숍 참가 부부 전원에게 투숙 기간 중 힐튼 무표 피트니스 센터 및 실내 수영장 1회(오전/오후) 이용 혜택이 지원됩니다.
+              수영장 이용시 유의사항 종일이용 불가, 퇴장 후 재입장 불가, 음식물, 물총, 비치볼, 반짝이 튜브, 오리발 반입 불가
             </p>
           </div>
 
