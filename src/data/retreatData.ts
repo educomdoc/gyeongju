@@ -27,9 +27,9 @@ export const PROGRAMS_DATA: ProgramItem[] = [
     locationName: '대구 군위군 산성면',
     address: '대구광역시 군위군 산성면 산성가음로 711-9 (화본리 1224-1)',
     roadAddress: '군위 화본마을 철길 및 급수탑 일원',
-    estimatedTime: '약 1시간 소요 (10:00 ~ 11:00)',
+    estimatedTime: '약 40분 소요 (10:20 ~ 11:00)',
     day: 'Day 1',
-    scheduleSlot: '10:00 ~ 11:00',
+    scheduleSlot: '10:20 ~ 11:00',
     highlights: [
       '국내에서 가장 아름다운 네티즌 선정 간이역 역사(驛舍) 관람',
       '높이 25m의 웅장한 옛 증기기관차 급수탑 내부 벽화 및 철길 산책로',
@@ -59,9 +59,9 @@ export const PROGRAMS_DATA: ProgramItem[] = [
     locationName: '대구 군위군 부계면',
     address: '대구광역시 군위군 부계면 치산효령로 1150',
     roadAddress: '군위 팔공산자락 사유원 정문',
-    estimatedTime: '약 4시간 소요 (13:00 ~ 17:00)',
+    estimatedTime: '약 3시간 30분 소요 (13:00 ~ 16:30)',
     day: 'Day 1',
-    scheduleSlot: '13:00 ~ 17:00',
+    scheduleSlot: '13:00 ~ 16:30',
     highlights: [
       '알바로 시자의 걸작 ‘소요헌(逍遙軒)’과 ‘소대(巢臺)’ 조망',
       '천년의 세월을 품은 모과나무 정원 ‘풍설기천년(風雪幾千年)’ 고요 산책',
@@ -177,17 +177,17 @@ export const PROGRAMS_DATA: ProgramItem[] = [
 export const TIMELINE_DATA: TimelineItem[] = [
   // [1일차_나를 비우고 자연을 담다]
   {
-    time: '09:00 - 10:00',
+    time: '08:30 - 09:30',
     day: 1,
-    title: '버스 집결 및 화본역 이동',
-    location: '지정 승차장 → 군위 사유원',
+    title: '버스 집결 및 스틸 301 이동',
+    location: '지정 승차장 → 스틸 301 카페',
     category: '이동',
-    description: '편안한 전세버스 탑승 및 출발, 1박 2일 부드럽 여정 시작',
+    description: '편안한 전세버스 탑승 및 출발, 1박 2일 부드럽 여정 시작 오리엔테이션',
     highlight: '버스 집결 & 이동',
     iconName: 'Bus',
   },
   {
-    time: '10:00 - 11:00',
+    time: '10:20 - 11:00',
     day: 1,
     title: '화본역 & 엄마아빠 어렸을 적에',
     location: '군위 화본역 테마마을',
@@ -207,7 +207,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
     iconName: 'Utensils',
   },
   {
-    time: '13:00 - 17:00',
+    time: '13:00 - 16:30',
     day: 1,
     title: '군위 사유원 관람 및 산책',
     location: '군위 사유원 (思惟園)',
@@ -217,7 +217,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
     iconName: 'Trees',
   },
   {
-    time: '17:00 - 18:30',
+    time: '16:30 - 17:30',
     day: 1,
     title: '경주 힐튼호텔 이동',
     location: '군위 → 경주 보문단지 힐튼호텔',
@@ -227,7 +227,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
     iconName: 'Bus',
   },
   {
-    time: '18:30 - 20:30',
+    time: '18:00 - 20:00',
     day: 1,
     title: '부드럽 만찬 및 마술공연',
     location: '경주 힐튼호텔 그랜드볼룸',
@@ -252,7 +252,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
     time: '09:00 - 12:00',
     day: 2,
     title: '반장(존중과 소통), 배우자(자기돌봄)',
-    location: '힐튼호텔 체리룸 / 그랜드볼룸 B + C',
+    location: '힐튼호텔 체리룸 / 오아르 미술관',
     category: '프로그램',
     description: '반장님을 위한 맞춤형 [존중과 소통] 워크숍 및 배우자님을 위한 힐링 테라피 [자기돌봄] 분과 프로그램',
     highlight: '맞춤형 분과 힐링 세션',
