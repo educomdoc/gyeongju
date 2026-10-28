@@ -228,7 +228,7 @@ export const ProgramSection: React.FC<ProgramSectionProps> = ({
                         <span>사유원 핵심 추천 탐방 코스 (주요 거점)</span>
                       </div>
                       <span className="text-[11px] font-semibold text-[#3b6a4b] bg-[#e8f1e3] px-2 py-0.5 rounded-full border border-[#d2e4cb]">
-                        약 4시간 소요 (13:00 ~ 17:00)
+                        약 3시간 반 소요 (13:00 ~ 16:30)
                       </span>
                     </div>
                     <p className="text-xs text-[#526356] leading-relaxed mb-3">
