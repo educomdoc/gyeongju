@@ -388,13 +388,9 @@ export const CONTACT_INFO = {
       pickupPoint: '구미 시민운동장 실내체육관 앞 주차장 집결/출발',
       departureTime: '09:00 출발',
     },
-    {
-      plant: '대구/울산 사업장',
-      pickupPoint: '이동시간 고려하여 10시 전까지 화본역으로 도착해 주세요.',
-      departureTime: '개별이동(유류대 지원)',
-    },
+
    {
-      plant: '군산/안성/유구 사업장',
+      plant: '군산/안성/유구/대구/울산 사업장',
       pickupPoint: '오전 11시 전 도착예정인 경우 군위 화본역으로 도착해 주세요.\n오전 11시 이후 도착예정인 경우 군위 축협 축산물프라자(중식 식당)으로 도착해 주세요.',
       departureTime: '개별이동(유류대 지원)',
     },
