@@ -252,7 +252,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
     time: '09:00 - 12:00',
     day: 2,
     title: '반장(존중과 소통), 배우자(자기돌봄)',
-    location: '힐튼호텔 체리룸 / 오아르 미술관',
+    location: '힐튼호텔 / 오아르 미술관',
     category: '프로그램',
     description: '반장님을 위한 맞춤형 [존중과 소통] 워크숍 및 배우자님을 위한 힐링 테라피 [자기돌봄] 분과 프로그램',
     highlight: '맞춤형 분과 힐링 세션',
@@ -395,7 +395,7 @@ export const CONTACT_INFO = {
     },
    {
       plant: '군산/안성/유구 사업장',
-      pickupPoint: '군산, 안성, 유구 사업장의 경우 이동시간 고려하여 12시 50분 전까지 군위 사유원으로 도착해 주세요.',
+      pickupPoint: '오전 11시 전 도착예정인 경우 군위 화복역으로 도착해 주세요.'<br>'오전 11시 이후 도착예정인 경우 군위 축협 축산물프라자(중식 식당)으로 도착해 주세요.',
       departureTime: '개별이동(유류대 지원)',
     },
   ],
