@@ -55,4 +55,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #beaf9b;
 }
-
+.text-box {
+  white-space: pre-line; /* 줄바꿈(\n)을 인식해서 화면에 반영해 줌 */
+}
