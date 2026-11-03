@@ -386,7 +386,7 @@ export const CONTACT_INFO = {
     {
       plant: '구미 사업장',
       pickupPoint: '구미 시민운동장 실내체육관 앞 주차장 집결/출발',
-      departureTime: '09:00 출발',
+      departureTime: '08:30 출발',
     },
 
    {
