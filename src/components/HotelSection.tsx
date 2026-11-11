@@ -51,7 +51,7 @@ export const HotelSection: React.FC = () => {
     },
     {
       title: '피트니스 & 실내 수영장',
-      desc: '자연 채광이 비치는 힐튼 실내 풀장과 쾌적한 피트니스 센터 운영',
+      desc: '자연 채광이 비치는 힐튼 실내 풀장과 쾌적한 피트니스 센터 11월 16일 하루 운영',
       badge: '',
       icon: Waves,
     },
